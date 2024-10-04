@@ -1,17 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Navbar from '.components/Navbar';
-import About from '.components/About';
-import Testimonials from '.components/Testimonials';
-import Approach from '.components/Approach';
-import Topics from '.components/Topics';
-import ServiceArea from '.components/ServiceArea';
-import Samples from '.components/Samples';
-import Scheduling from '.components/Scheduling';
-import BizInfo from '.components/BizInfo';
-import Contact from '.components/Contact';
-import Footer from '.components/Footer';
+import Navbar from './components/Navbar.js';
+import About from './components/About.js';
+import Testimonials from './components/Testimonials.js';
+import Approach from './components/Approach.js';
+import Topics from './components/Topics.js';
+import ServiceArea from './components/ServiceArea.js';
+import Samples from './components/Samples.js';
+import Scheduling from './components/Scheduling.js';
+import BizInfo from './components/BizInfo.js';
+import Contact from './components/Contact.js';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
