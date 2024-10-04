@@ -1,1 +1,5 @@
-export default function Scheduling() {}
+export default function Scheduling() {
+    return(
+        <section id='scheduling'></section>
+    )
+}

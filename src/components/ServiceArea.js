@@ -1,1 +1,5 @@
-export default function ServiceArea() {}
+export default function ServiceArea() {
+    return(
+        <section id='serviceArea'></section>
+    )
+}

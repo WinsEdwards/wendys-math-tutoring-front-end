@@ -1,1 +1,5 @@
-export default function BizInfo() {}
+export default function BizInfo() {
+    return(
+        <section id='bizInfo'></section>
+    )
+}

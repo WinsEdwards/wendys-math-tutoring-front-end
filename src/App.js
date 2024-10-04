@@ -15,19 +15,23 @@ import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <main>
-      <Navbar />
-      <About />
-      <Testimonials />
-      <Approach />
-      <Topics />
-      <ServiceArea />
-      <Samples />
-      <Scheduling />
-      <BizInfo />
-      <Contact />
-      <Footer />
-    </main>
+    <div>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <About />
+        <Testimonials />
+        <Approach />
+        <Topics />
+        <ServiceArea />
+        <Samples />
+        <Scheduling />
+        <BizInfo />
+        <Contact />
+        <Footer />
+      </main>
+    </div>
   );
 }
 

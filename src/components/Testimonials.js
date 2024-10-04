@@ -1,1 +1,5 @@
-export default function Testimonials() {}
+export default function Testimonials() {
+    return(
+        <section id='testimonials'></section>
+    )
+}
