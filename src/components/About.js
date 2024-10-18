@@ -5,7 +5,7 @@ const aboutTxt = "With over 20 years of teaching experience and a masters degree
 export default function About() {
     return (
         <section id='about'>
-            <div className='container'>
+            <div className='container about__container'>
                <h1 className='about-title'>
                 {aboutTitle}
                 </h1> 
