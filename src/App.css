@@ -4,6 +4,8 @@
 
 .container {
   margin: 3.5%;
+  position: relative;
+  top: 50px;
 }
 
 nav {
@@ -52,21 +54,22 @@ nav {
 }
 
 .nav-li {
+  /* border: 1px solid; */
   color: #007c9c;
   cursor: pointer;
+  padding: 0 2%;
+  white-space: nowrap;
 }
 
 .nav-li:hover {
-  text-decoration: underline;
   font-weight: bold;
-  color: #925ab5;
 }
 
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1125px) {
   nav {
     flex-direction: column;
     justify-content: center;
-    height: 50%;
+    height: 60%;
     width: 100%;
     padding: 1rem;
   }
